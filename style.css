@@ -57,6 +57,25 @@ body {
   text-align: center;
 }
 
-#google input {
-  width: 300px;
+#google #search {
+  margin-top: 30px;
+  padding-left: 10px;
+  width: 560px;
+  height: 38px;
+  font-size: 1em;
+  border: none;
+  box-shadow: 1px 1px 5px grey;
+}
+
+#google div {
+  margin-top: 30px;
+}
+
+#google div input {
+  color: grey;
+  font-weight: bold;
+  border: none;
+  background-color: ;
+  padding: 10px;
+  border-radius: 2px;
 }
