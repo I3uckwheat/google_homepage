@@ -1,9 +1,3 @@
-/*For debugging*/
-
-/*#header #menu {
-  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
-  background-size: 528px 68px;
-}*/
 body {
   font-family: Arial;
 }
@@ -75,7 +69,52 @@ body {
   color: grey;
   font-weight: bold;
   border: none;
-  background-color: ;
+  background-color: white;
   padding: 10px;
   border-radius: 2px;
+  box-sizing: border-box;
+}
+
+#google div input:hover {
+  border: 1px solid lightgrey;
+  border-radius: 2px;
+  margin: -1px;
+  color: black;
+  box-sizing: border-box;
+}
+
+
+#footer{
+  border-bottom: 1px solid lightgrey;
+  position: relative;
+  top: 45px;
+  padding-top: 0px;
+}
+
+#footer li {
+  list-style-type: none;
+  margin-right: 9px;
+  display: inline-block;
+  font-size: .8em;
+  text-decoration: none;
+  color: lightgrey;
+  vertical-align: top;
+  margin-bottom: -5px;
+}
+
+#footer a {
+  text-decoration: none;
+  color: grey;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
+
+#leftfooter {
+  float: left;
+}
+
+#rightfooter {
+  float:right;
 }
