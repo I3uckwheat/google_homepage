@@ -1,0 +1,62 @@
+/*For debugging*/
+
+/*#header #menu {
+  background-image: url(https://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-size: 528px 68px;
+}*/
+body {
+  font-family: Arial;
+}
+
+#header {
+  text-align: right;
+  margin: 20px 20px 148px 20px;
+}
+
+#header #menu {
+  background-image: url(http://ssl.gstatic.com/gb/images/i1_1967ca6a.png);
+  background-position: -132px -38px;
+  background-size: 528px 68px;
+  display: inline-block;
+  box-sizing: border-box;
+  height: 30px;
+  width: 30px;
+  vertical-align: middle;
+}
+
+#header a {
+  margin-left: 12px;
+}
+
+#header .textlink {
+  text-decoration: none;
+  color: grey;
+  font-size: .8em;
+}
+
+#header .textlink:hover {
+  text-decoration: underline;
+}
+
+#header #signin {
+  background-color: #4286f4;
+  color: white;
+  text-decoration: none;
+  padding: 8px 11px;
+  border-radius: 2px;
+  font-size: 0.8em;
+  font-weight: bold;
+
+}
+
+#google {
+  /*border: 1px solid grey;*/
+
+  width: 960px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#google input {
+  width: 300px;
+}
