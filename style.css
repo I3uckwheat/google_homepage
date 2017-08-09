@@ -84,14 +84,15 @@ body {
 }
 
 
-#footer{
-  border-bottom: 1px solid lightgrey;
-  position: relative;
-  top: 45px;
+#foot{
+  border-top: 1px solid rgba(66, 134, 244, 0.25);
+  position: absolute;
+  bottom: 8px;
   padding-top: 0px;
+  width: 97%;
 }
 
-#footer li {
+#foot li {
   list-style-type: none;
   margin-right: 9px;
   display: inline-block;
@@ -102,19 +103,19 @@ body {
   margin-bottom: -5px;
 }
 
-#footer a {
+#foot a {
   text-decoration: none;
   color: grey;
 }
 
-#footer a:hover {
+#foot a:hover {
   text-decoration: underline;
 }
 
-#leftfooter {
+#leftfoot {
   float: left;
 }
 
-#rightfooter {
+#rightfoot {
   float:right;
 }
